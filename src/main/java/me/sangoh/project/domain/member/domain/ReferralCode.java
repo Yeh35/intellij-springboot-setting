@@ -8,6 +8,9 @@ import net.bytebuddy.utility.RandomString;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
+import java.sql.*;
+
+
 @Embeddable
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
